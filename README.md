@@ -1,11 +1,11 @@
-# Protocol_DV
+# Simple_Memory_TB
 This is simple memory testbench using sv/uvm.
 
-OVERVIEW
+# OVERVIEW
 This project implements a UVM-based verification environment for a simple memory model.
 The testbench verifies basic read and write operations, ensuring data integrity and proper protocol handling.
 
-FEATURES
+# FEATURES
 UVM Testbench architecture:
 
 Driver – Sends read/write transactions to the DUT.
@@ -22,7 +22,7 @@ Support for both directed and random tests.
 
 Coverage collection for address and data patterns.
 
-HOW IT WORKS
+# HOW IT WORKS
 DUT – A simple synchronous memory with configurable depth and width.
 
 Sequence – Generates read/write transactions with random or fixed addresses and data.
